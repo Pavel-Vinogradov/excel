@@ -1,5 +1,22 @@
-body,html{
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import "~normalize.css";
+
+@import "header";
+@import "toobar";
+@import "formula";
+@import "table";
+
+*{
   margin: 0;
-  padding: 10px;
-  background-color: white;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,html{
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+
+}
+
+.excel{
+  position: relative;
 }

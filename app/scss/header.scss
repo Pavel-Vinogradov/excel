@@ -1,0 +1,22 @@
+@import "mixins";
+@import "variables";
+.excel__header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: $header_height;
+  padding: 8px 4px 0;
+  display: flex;
+  justify-content: space-between;
+
+  // temp
+  background-color: burlywood;
+&.input{
+
+}
+
+  &.button{
+
+  }
+}
